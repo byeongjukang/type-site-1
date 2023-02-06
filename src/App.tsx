@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import Menu from './components/Menu';
+import Main from './components/Main';
+import Tail from './components/Tail';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ThemeProvider } from 'react-bootstrap';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<ThemeProvider
+			breakpoints={['xxl', 'xl', 'lg', 'md', 'sm', 'xs']}
+			minBreakpoint="xxl"
+		>
+			<div className='App'>
+				<Menu/>
+				<Main/>
+				<Tail/>
+			</div>
+		</ThemeProvider>
+	);
 }
 
 export default App;
