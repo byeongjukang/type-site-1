@@ -18,8 +18,10 @@ function Menu() {
                     navbarScroll
                 >
                     <Nav.Link href="#action1">Home</Nav.Link>
-                    <Nav.Link href="#action2">Link</Nav.Link>
-                    <Nav.Link href="#action3">Link</Nav.Link>
+                    <Nav.Link href="#action2">About</Nav.Link>
+                    <Nav.Link href="#action3">Information</Nav.Link>
+                    <Nav.Link href="#action3">Portfolio</Nav.Link>
+                    <Nav.Link href="#action3">Contact Us</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

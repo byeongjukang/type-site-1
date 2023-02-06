@@ -7,7 +7,7 @@ function Tail() {
         <Container fluid>
             <Row>
                 <Col>
-                    <div className='text-center'>Copyright © WSGROUND 2022. All rights reserved.</div>
+                    <div className='p-4 text-center'>Copyright © WSGROUND 2022. All rights reserved.</div>
                 </Col>
             </Row>
         </Container>
