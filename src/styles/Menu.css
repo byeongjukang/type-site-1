@@ -1,0 +1,30 @@
+.App-amb {
+    height: 48px;
+    pointer-events: none;
+    margin-right: 10px;
+}
+.App-text {
+    height: 38px;
+    pointer-events: none;
+}
+
+.nav-link a {
+    color: #000000;
+    padding-left: 25px !important;
+    font-size: 14px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-amb {
+        animation: App-amb-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-amb-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

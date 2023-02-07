@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from '../logo.svg';
-import './Menu.css';
+import amb from '../images/amb.svg';
+import logo from '../images/logo_text.svg';
+import '../styles/Menu.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function Menu() {
@@ -9,7 +10,8 @@ function Menu() {
         <Navbar expand="lg">
             <Container fluid>
                 <Navbar.Brand href="#">
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src={amb} className="App-amb" alt="logo" />
+                    <img src={logo} className="App-text" alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './components/Menu';
 import Main from './components/Main';
 import Tail from './components/Tail';
-import './App.css';
+import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ThemeProvider } from 'react-bootstrap';
 
