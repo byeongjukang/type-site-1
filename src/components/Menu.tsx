@@ -9,7 +9,7 @@ function Menu() {
 
         <Navbar expand="lg">
             <Container fluid>
-                <Navbar.Brand href="#">
+                <Navbar.Brand href="/">
                     <img src={amb} className="App-amb" alt="logo" />
                     <img src={logo} className="App-text" alt="logo" />
                 </Navbar.Brand>
