@@ -1,8 +1,8 @@
-import React from 'react';
-import amb from '../images/amb.svg';
-import logo from '../images/logo_text.svg';
-import '../styles/Menu.css';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import React from 'react'
+import amb from '../images/amb.svg'
+import logo from '../images/logo_text.svg'
+import '../styles/Menu.css'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 
 function Menu() {
 	return (

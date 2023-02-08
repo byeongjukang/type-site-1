@@ -1,6 +1,6 @@
-import React from 'react';
-import '../styles/Tail.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from 'react'
+import '../styles/Tail.css'
+import { Container, Row, Col } from 'react-bootstrap'
 
 function Tail() {
 	return (
